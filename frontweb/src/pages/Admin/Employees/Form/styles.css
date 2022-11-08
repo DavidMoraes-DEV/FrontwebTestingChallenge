@@ -34,6 +34,22 @@
   font-weight: bold;
 }
 
+.department-select__control {
+  border-radius: 10px !important;
+  font-size: 1em;
+  letter-spacing: -0.015em;
+  color: #263238;
+  height: 50px;
+}
+
+.department-select__placeholder {
+  color: #9E9E9E !important;
+}
+
+.department-select__indicator-separator {
+  display: none;
+}
+
 @media (min-width: 576px) {
 
   .employee-crud-form-card {

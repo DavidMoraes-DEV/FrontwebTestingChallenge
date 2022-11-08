@@ -28,8 +28,6 @@ export const hasAnyRoles = (roles: Role[]): boolean => {
 
   const tokenData = getTokenData();
 
-  console.log("TOKEN DATA", tokenData);
-
   if (tokenData !== undefined) {
     for (var i = 0; i < roles.length; i++) {
       if (tokenData.authorities.includes(roles[i])) {
